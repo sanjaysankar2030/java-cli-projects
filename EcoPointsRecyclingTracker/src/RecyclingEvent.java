@@ -5,7 +5,7 @@ public class RecyclingEvent implements Serializable{
     private double weight;
     private LocalDate date;
     private double ecoPoint;
-public RecyclingEvent(String material,double weight,LocalDate date,double ecoPoint){
+public RecyclingEvent(String material,double weight){
         this.material=material;
         this.weight=weight;
         this.date=LocalDate.now();
