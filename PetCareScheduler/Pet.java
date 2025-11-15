@@ -1,4 +1,3 @@
-package PetCareScheduler;
 
 import java.util.List;
 import java.time.LocalDate;
@@ -14,6 +13,9 @@ public class Pet {
     private List<Appointment> appointmentList;
 
     // Constructor
+    public Pet(){
+        // empty constructor
+    }
     public Pet(String uniquePetId, String petName, String breed, String petAge, String ownerName, String contactInfo) {
         this.uniquePetId = uniquePetId;
         this.petName = petName;
@@ -44,6 +46,7 @@ public class Pet {
     public String getBreed() {
         return breed;
     }
+    // this is a comment 
 
     public void setBreed(String breed) {
         this.breed = breed;
@@ -88,7 +91,6 @@ public class Pet {
     public List<Appointment> getAppointmentList() {
         return appointmentList;
     }
-
     public void setAppointmentList(List<Appointment> appointmentList) {
         this.appointmentList = appointmentList;
     }

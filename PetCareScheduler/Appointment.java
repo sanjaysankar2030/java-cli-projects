@@ -1,4 +1,3 @@
-package PetCareScheduler;
 
 import java.time.LocalDateTime;
 
@@ -6,9 +5,9 @@ class Appointment {
     private String AppointmentType;
     private LocalDateTime dateTime;
     private String Notes;
-    public Appointment(String AppointmentType,String Notes){
+    public Appointment(String AppointmentType,String Notes,LocalDateTime appointmentDate){
         this.AppointmentType=AppointmentType;
-        this.dateTime=LocalDateTime.now();
+        this.dateTime=appointmentDate;
         this.Notes=Notes;
     }
     public String getAppointment(){
