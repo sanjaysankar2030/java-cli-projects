@@ -19,6 +19,7 @@ public class FileSystemManager {
 
     // Date formatter for file timestamps
     private SimpleDateFormat dateFormat;
+    private SimpleDateFormat dateFormat
 
     /**
      * Constructor to initialize the file system manager
